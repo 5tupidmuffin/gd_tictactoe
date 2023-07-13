@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://bnm7hmjku8n3x"]
+
+[ext_resource type="Script" path="res://scenes/Display/Display.gd" id="1_f7nm8"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_wysrj"]
+font_size = 40
+
+[node name="Display" type="Label"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_right = 20.0
+offset_bottom = 72.0
+grow_horizontal = 2
+text = "X"
+label_settings = SubResource("LabelSettings_wysrj")
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("1_f7nm8")
